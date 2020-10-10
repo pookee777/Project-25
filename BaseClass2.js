@@ -11,7 +11,7 @@ class BaseClass2
 
         this.body = Bodies.circle(x,y,radius,options);
         this.radius = radius;
-        this.image = loadImage("sprites/base.png");
+        this.image = loadImage("base.png");
         World.add(world,this.body);
     }
     display()

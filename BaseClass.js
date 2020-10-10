@@ -6,7 +6,7 @@ class BaseClass
         this.body = Bodies.rectangle(x,y,width,height);
         this.width = width;
         this.height = height;
-        this.image = loadImage("base.png");
+        this.image = loadImage("dustbin.png");
         World.add(world,this.body);
     }
     display()
